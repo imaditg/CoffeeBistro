@@ -19,11 +19,11 @@ const ContactSecond = () => {
                                 <input type="text" />
                                 <p>message :</p>
                                 <textarea rows={"6"} cols={"58"} />
-                                <a href="#" className="button">send now</a>
+                                <a href="/#" className="button">send now</a>
                             </form>
                         </div>
                         <div className="contact-sect2-right">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d87695.12000114229!2d8.009350690803977!3d46.617426723707254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478f9eab18c79217%3A0xbfaa5c0f42972f65!2sGrindelwald%2C%20Switzerland!5e0!3m2!1sen!2sin!4v1747722129127!5m2!1sen!2sin" className="maps" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" />
+                            <iframe className='gmap' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d87695.12000114229!2d8.009350690803977!3d46.617426723707254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478f9eab18c79217%3A0xbfaa5c0f42972f65!2sGrindelwald%2C%20Switzerland!5e0!3m2!1sen!2sin!4v1747722129127!5m2!1sen!2sin" className="maps" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" />
                             <div className="contact-sect2-right-middle">
                                 <div className="contact-sect2-middle-middle">
                                     <div className="contacts"><span className="high">address :</span><span className="low">Avenue 234</span></div>
@@ -48,4 +48,5 @@ const ContactSecond = () => {
         </>
     );
 }
+
 export default ContactSecond
