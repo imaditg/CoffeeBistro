@@ -1,0 +1,246 @@
+/* shop section one  */
+
+.shop-outer-pic{
+    background-image:url("./../images/cof28.webp");
+    position:relative;
+    width:100%;
+    height: 115vh;
+    background-repeat: no-repeat;
+    background-position: 52% 48%;
+    background-size: 132% 180%;
+    padding-bottom: 500px;
+    overflow: hidden;
+}
+.shop-outer-pic .container .shop-sect1-outer{
+    display: block;
+    position: relative;
+    height: 100vh;
+}
+.shop-outer-pic .container .shop-sect1-outer .shop-sect1-txt-outer{
+    display:block;
+    position: absolute;
+    top:50%;
+    left:34%;
+    transform: translate(-26%,-76%);
+}
+.shop-outer-pic .container .shop-sect1-outer .shop-sect1-txt-outer h2{
+      font-family: 'Kristi', sans-serif;
+      font-size: 55px;
+      color:#fff;
+      text-align: center;
+      text-transform: capitalize;
+}
+.shop-outer-pic .container .shop-sect1-outer .shop-sect1-txt-outer .middle{
+    color:#fff;
+    font-family: 'Cabin', sans-serif;
+    font-size: 13px;
+    display: inline-block;
+    line-height: 25px;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    text-align: center;
+    margin:8px 0px;
+}
+.shop-outer-pic .container .shop-sect1-outer .shop-sect1-txt-outer .button-outer{
+    margin:20px auto;
+    text-align: center;
+}
+.shop-outer-pic .container .shop-sect1-outer .shop-sect1-txt-outer .button-outer .button{
+    font-family: 'Cormorant', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.shop-outer-pic .container .shop-sect1-outer .shop-sect1-below-outer{
+    display: block;
+    position: absolute;
+    bottom:-5%;
+}
+.shop-outer-pic .container .shop-sect1-below-outer .shop-sect1-below-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.shop-outer-pic .container .shop-sect1-below-outer .shop-sect1-below-inner .shop-sect1-item{
+    display: block;
+    position: relative;
+    width:25%;
+}
+.shop-outer-pic .container .shop-sect1-below-outer .shop-sect1-below-inner .shop-sect1-item .img-outer{
+    display: block;
+    padding:15px;
+}
+.shop-outer-pic .container .shop-sect1-below-outer .shop-sect1-below-inner .shop-sect1-item .img-outer img{
+    width:100%;
+}
+.shop-outer-pic .container .shop-sect1-below-outer .shop-sect1-below-inner .shop-sect1-item .title{
+    display: block;
+    font-family: 'Cabin', sans-serif;
+    color:#fff;
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    position:absolute;
+    bottom:15%;
+    left:38%;
+    transform: translate(0%,0%);
+}
+.shop-outer-pic .container .shop-sect1-below-outer .shop-sect1-below-inner .shop-sect1-item .price{
+    display: inline-block;
+    background-color: #c19b77;
+    color:#fff;
+    font-family: 'Cabin', sans-serif;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: absolute;
+     top:15%;
+    right:15%;
+    transform: translate(0%,0%);
+}
+
+/* shop Section two */
+
+.shop-sect2-outer{
+    display: block;
+    overflow: hidden;
+    margin-top:75px;
+}
+.shop-sect2-outer .container .shop-sect2-txt-outer{
+    display: block;
+}
+.shop-sect2-outer .container .shop-sect2-txt-outer .shop-sect2-upper{
+    display: block;
+    color:#7e7e7e;
+    letter-spacing: 2px;
+    font-weight: normal;
+    font-family: 'Cormorant', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.shop-sect2-outer .container .shop-sect2-txt-outer .shop-sect2-below{
+    display: block;
+    font-family: 'Cormorant', sans-serif;
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    text-align: center;
+    text-transform: capitalize;
+    color:#2d2d2d;
+    margin:15px 0px;
+}
+.shop-sect2-outer .container .shop-sect2-main-outer{
+    display: block;
+    margin-top:30px;
+}
+.shop-sect2-outer .container .shop-sect2-main-outer .shop-sect2-main-inner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.shop-sect2-outer .container .shop-sect2-main-outer .shop-sect2-main-inner .shop-sect2-items{
+    display: block;
+    position: relative;
+    width:31.50%;
+}
+.shop-sect2-outer .container .shop-sect2-main-outer .shop-sect2-main-inner .shop-sect2-items .sale{
+    display: block;
+    position:absolute;
+    top:-5%;
+    right:-5%;
+    padding:25px 15px;
+    color:#fff;
+    border-radius: 100%;
+    font-size: 13px;
+    text-align: center;
+    background-color: #c19b77;
+    font-family: 'Cormorant', sans-serif;
+    text-transform: uppercase;
+}
+.shop-sect2-outer .container .shop-sect2-main-outer .shop-sect2-main-inner .shop-sect2-items .shop-sect2-img{
+    display: block;
+}
+.shop-sect2-outer .container .shop-sect2-main-outer .shop-sect2-main-inner .shop-sect2-items .shop-sect2-img img{
+    width:100%;
+}
+.shop-sect2-outer .container .shop-sect2-main-outer .shop-sect2-main-inner .shop-sect2-items .sect2-item-name{
+    display: block;
+    color:#2d2d2d;
+    font-family: 'Cormorant', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin:10px 0px;
+}
+.shop-sect2-outer .container .shop-sect2-main-outer .shop-sect2-main-inner .shop-sect2-items .price{
+    display: block;
+    color:#c19b77;
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/* Section Three */
+
+.shop-sect3-outer{
+    display: block;
+    margin-top:60px;
+    font-size: 0px;
+}
+.shop-sect3-outer .shop-sect3-inner{
+    display: flex;
+    width:100%;
+}
+.shop-sect3-outer .shop-sect3-inner .shop-sect3-items{
+    display: block;
+    width:50%;
+    position:relative;
+}
+.shop-sect3-outer .shop-sect3-inner .shop-sect3-items .shop-sect3-img{
+    display: block;
+}
+.shop-sect3-outer .shop-sect3-inner .shop-sect3-items .shop-sect3-img img{
+    width:100%;
+}
+.shop-sect3-outer .shop-sect3-inner .shop-sect3-items .price{
+    display: block;
+    position: absolute;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: 'Cormorant', sans-serif;
+    color:#fff;
+    top:20%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.shop-sect3-outer .shop-sect3-inner .shop-sect3-items h2{
+    display: block;
+    color:#fff;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Cormorant', sans-serif;
+    text-transform: capitalize;
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.shop-sect3-outer .shop-sect3-inner .shop-sect3-items .button{
+    display: block;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color:#fff;
+    font-family: 'Cormorant', sans-serif;
+    padding: 15px 35px;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top:65%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
