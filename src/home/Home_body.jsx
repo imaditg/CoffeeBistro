@@ -10,7 +10,7 @@ import SectionEight from './sectionEight';
 import SectionNine from './sectionNine';
 import SideHeader from '../side-header';
 import ScrollHeader from '../scrollheader';
-const Home_body = () =>{
+const HomeBody = () =>{
     return(
         <>
         <ScrollHeader />
@@ -28,4 +28,5 @@ const Home_body = () =>{
         </>
     );
 }
-export default Home_body;
+
+export default HomeBody;
