@@ -1,0 +1,289 @@
+.left-outer {
+    display: block;
+    width: 23%;
+    overflow: hidden;
+}
+
+@media(max-width:1199px){
+    .left-outer{
+        width:22.6%;
+    }
+}
+
+@media(max-width:991px){
+    .left-outer{
+        width:32.5%;
+    }
+}
+
+@media(max-width:767px) {
+    .left-outer {
+        display: none;
+    }
+}
+
+/* LEFT TOP */
+
+.left-outer .left-top {
+    display: block;
+    border: 1px solid #e1e1e1;
+    width: 100%;
+    overflow: hidden;
+}
+
+.left-outer .left-top li {
+    display: block;
+}
+
+.left-outer .left-top li h3 {
+    display: block;
+    margin-bottom: 16px;
+}
+
+.left-outer .left-top li h3 a {
+    display: block;
+    font-family: 'Jost', sans-serif;
+    padding: 12px;
+    padding-left: 15px;
+    color: #333333;
+    border-bottom: 1px solid #d1d1d1;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.left-outer .left-top li a {
+    display: block;
+    padding-left: 15px;
+    padding-bottom: 11px;
+    position: relative;
+}
+
+.left-outer .left-top li .top-last {
+    padding-bottom: 15px;
+}
+
+.left-outer .left-top li a span {
+    display: inline-block;
+    color: #000;
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition-property: color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+}
+
+.left-outer .left-top li a span:hover {
+    color: #c0a676;
+}
+
+.left-outer .left-top li a button {
+    display: block;
+    background-color: #ffff;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    position: absolute;
+    top: 6%;
+    right: 18px;
+    transition-property: color;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+}
+
+.left-outer .left-top li a .plus::after {
+    content: '\2b';
+    font-family: "Font Awesome 7 Free";
+    font-weight: 600;
+}
+
+.left-outer .left-top li a button:hover {
+    color: #c0a676;
+}
+
+.left-outer .left-top li a:has(button:hover) span {
+    color: #c0a676;
+}
+
+.left-outer .left-top li ul {
+    display: block;
+    margin-top: 7px;
+    margin-bottom: 18px;
+}
+
+.left-outer .left-top li ul li {
+    display: block;
+}
+
+.left-outer .left-top li ul li a {
+    display: block;
+    color: #000;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    padding-left: 30px;
+    /* line-height: 1; */
+    margin-bottom: 5px;
+}
+
+.left-outer .left-top li ul li a:hover {
+    color: #c0a676;
+}
+
+.left-outer .left-top li:has(ul:hover) span {
+    color: #c0a676;
+}
+
+.submenu {
+    max-height: 0px;
+    opacity: 0;
+}
+
+.open {
+    max-height: 800px;
+    opacity: 1;
+}
+
+.closed {
+    display: none !important;
+}
+
+.minus::after {
+    content: '\f068';
+    font-family: "Font Awesome 7 Free";
+    font-weight: 600;
+}
+
+/* LEFT MIDDLE */
+
+.left-outer .left-middle {
+    margin-top: 25.9px;
+    overflow: hidden;
+}
+
+.left-outer .left-middle li h3 a {
+    font-size: 15px;
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 23px;
+}
+
+.left-outer .left-middle li button {
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    background-color: #ffff;
+    border: none;
+    font-family: 'Jost', sans-serif;
+    color: #000;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: capitalize;
+    padding-left: 15px;
+    margin: 18px 0px;
+    position: relative;
+}
+
+.left-outer .left-middle li ul {
+    display: block;
+}
+
+.left-outer .left-middle li ul li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.left-outer .left-middle li ul li input {
+    display: inline-block;
+    margin-left: 15px;
+    height: 15px;
+    width: 15px;
+    /* outline: none; */
+}
+
+.left-outer .left-middle li ul li label {
+    display: inline-block;
+    font-family: 'Jost', sans-serif;
+    font-size: 13px;
+    color: #555555;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+
+.arrow-down::after {
+    display: inline-block;
+    content: "\f107";
+    font-family: "Font Awesome 7 Free";
+    font-weight: 600;
+    font-size: 11px;
+    position: absolute;
+    top: 2%;
+    right: 7%;
+}
+
+.arrow-up::after {
+    display: inline-block;
+    content: "\f106";
+    font-family: "Font Awesome 7 Free";
+    font-weight: 600;
+    font-size: 11px;
+    position: absolute;
+    top: 2%;
+    right: 7%;
+}
+
+.left-outer .left-middle li ul li div {
+    display: block;
+}
+
+.left-outer .left-middle li div label {
+    display: block;
+    font-family: 'Jost', sans-serif;
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 14px;
+}
+
+.left-outer .left-middle li .last-btn {
+    margin-bottom: 12px;
+}
+
+.left-outer .left-middle li div .inputrange {
+    font-size: 16px;
+    width: 90%;
+    margin: 0px 10px;
+    margin-bottom: 10px;
+}
+
+.left-bottom {
+    display: block;
+    overflow: hidden;
+    clear: both;
+    margin-top: 25px;
+}
+
+.left-bottom a {
+    display: block;
+    width: 100%;
+}
+
+.left-bottom a img {
+    display: block;
+    width: 100%;
+}
+
+.left-outer .sales-left{
+    border: none;
+}
+
+.left-outer .sales-left li h3 a {
+    /* font-size: 15px; */
+    border: 1px solid #e1e1e1;
+}
