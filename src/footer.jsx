@@ -2,7 +2,7 @@
 import { IoLogoInstagram } from "react-icons/io";
 import { FaFacebookSquare } from "react-icons/fa";
 import { LiaAngleRightSolid } from "react-icons/lia";
-{/* Footer is start from here */ }
+
 const Footer = () => {
     return (
         <>
@@ -24,7 +24,7 @@ const Footer = () => {
                                     </p>
                                     <div className="footer-upper-item-tags">
                                         <a href="/#" className="instagram"><IoLogoInstagram color='#ffffff' size='28px' opacity='0.9' /></a>
-                                        <a href="/#" className="vine"></a>
+                                        <a href="/#" className="vine"><span></span></a>
                                         <a href="/#" className="facebook"><FaFacebookSquare color='#ffffff' size='28px' opacity='0.9' /></a>
                                         <a href="/#" className="cof-icon"><img src="./../assets/images/cof03.webp" alt="coffee-icon" /></a>
                                     </div>
@@ -82,5 +82,6 @@ const Footer = () => {
         </>
     );
 }
+
 
 export default Footer;
