@@ -1,14 +1,15 @@
 // import React from "react";
 import Footer from "./footer";
 
-import Home_body from './home/Home_body';
+import HomeBody from './home/Home_body';
 const Home = () => {
     return (
         <>
-            <Home_body />
+            <HomeBody />
             <Footer />
         </>
     );
 }
+
 
 export default Home;
